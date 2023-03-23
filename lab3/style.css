@@ -1,0 +1,62 @@
+body{
+    justify-content: space-between;
+    gap: 20px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    background-color:  #EEEEEE;
+    width: 100%;
+    height: 200px;
+}
+header h3{
+    padding-top: 100px;
+}
+.DieuHuong{
+    background-color:  #EEEEEE;
+    width: 100%;
+    height: 100px;
+}
+.DieuHuong h3{
+    padding-top: 40px;
+}
+.contents{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.left {
+    width: 20%;
+    height: 500px;
+    background-color: #EEEEEE;
+}
+.left h3{
+    padding-top: 240px;
+}
+.center{
+    width: 60%;
+    height: 500px;
+    background-color: #EEEEEE;
+    margin-left: 20px;
+}
+.center h3{
+    padding-top: 240px;
+}
+.right{
+    width: 20%;
+    height: 500px;
+    background-color: #EEEEEE;
+    margin-left: 20px;
+}
+.right h3{
+    padding-top: 240px;
+}
+footer{
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 200px;
+}
+footer h3{
+    padding-top: 100px;
+}
