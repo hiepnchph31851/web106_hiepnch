@@ -1,0 +1,93 @@
+body{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+.grid{
+    display: grid;
+    gap: 3px;
+    background-color: black;
+    padding: 3px;
+}
+.grid > div {
+    background-color: white;
+    font-size: 30px;
+}
+.header{
+    display: flex;
+}
+.logo{
+    width: 150px;
+    padding-left: 100px;
+}
+.header input{
+    width: 650px;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.header p{
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.user{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 45px;
+}
+.content{
+    padding-bottom: 20px;
+    display: flex;
+}
+.grid2{
+    display: grid;
+    background-color: black;
+    padding: 3px;
+    margin: 50px 0px 10px 30px;
+}
+.grid2 > div {
+    background-color: white;
+    font-size: 30px;  
+    padding: 10px 180px 10px 10px;
+}
+.grid2 > div:hover{
+    color: red;
+}
+.content-right{
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+.video1{
+    width: 440px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.video1 h5{
+    margin-top: 10px;
+}
+.video1 p{
+    margin-top: 10px;
+}
+.clip{
+    border: 1px solid black;
+    height:200px;
+    width: 350px;
+}
+.clip:hover{
+    border: 1px solid red;
+    background-color: yellow;
+}
+.flex1{
+    display: flex;
+    margin-top: 50px;
+    
+}
+.flex2{
+    display: flex;
+
+}
+.flex3{
+    display: flex;
+}
