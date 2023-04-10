@@ -10,62 +10,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Menu -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img  src="img/logo.jpg" height="100" width="auto"></a>
-          <a class="nav-link " href="#">GYM BMW</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-              <a class="nav-link active" aria-current="page" href="#"></a>
-              <a class="nav-link" href="TrangChu.html">Trang chủ</a>
-              <a class="nav-link" href="GioiThieu.html">Giới thiệu</a>
-              <a class="nav-link" href="SanPham.html">Sản Phẩm</a>
-              <a class="nav-link" href="#">Liên hệ</a>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-between">
+              <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="" width="150"></a>
+              <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">GYM BMW</a>
+                </li>
+              </ul>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Trang chủ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Giới thiệu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Sản phẩm</a>
+                  </li>     
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Liên hệ</a>
+                  </li>      
+                </ul>
             </div>
+          </nav>
+        </div>
+        
+        <!-- Button -->
+        <div class="row justify-content-between my-5 ">
+          <div class="col-auto"></div>
+          <div class="col-auto">
+            <ul class="nav justify-content-end">
+              <div class="button-circle"><a href="#"></a></div>
+              <div class="button-circle"><a href="#"></a></div>
+              <div class="button-circle button-circle1"><a href="#"></a></div>
+            </ul>
           </div>
         </div>
-      </nav>
-      <!-- END MENU -->
-
-      <!-- Button -->
-      <div class="row justify-content-between my-5">
-        <div class="col-auto"></div>
-        <div class="col-auto">
-          <ul class="nav justify-content-end">
-            <div class="button-circle"><a href="#"></a></div>
-            <div class="button-circle"><a href="#"></a></div>
-            <div class="button-circle button-circle1"><a href="#"></a></div>
-          </ul>
-        </div>
-      </div>
-      <!-- END BUTTON -->
-
-<!-- LIST SẢN PHẨM -->
-      <div class="container container-fluid">
-        <div class="row mb-4 mt-4">
-          <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-      <div class="d ">
-        <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
-        <div class="d-body">
-          <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
-          <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
-        </div>
-      </div></div>
-
-      <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-        <div class="d">
+        <!-- END BUTTON -->
+  
+  <!-- LIST SẢN PHẨM -->
+        <div class="container">
+          <div class="row mb-4 mt-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+        <div class="d ">
           <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
           <div class="d-body">
             <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
             <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
           </div>
         </div></div>
-    
-        <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+  
+        <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
           <div class="d">
             <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
             <div class="d-body">
@@ -73,8 +74,8 @@
               <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
             </div>
           </div></div>
-
-          <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+      
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
             <div class="d">
               <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
               <div class="d-body">
@@ -82,60 +83,73 @@
                 <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
               </div>
             </div></div>
-    </div>
-    <div class="row md-4">
-        <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-            <div class="d">
-              <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
-              <div class="d-body">
-                <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
-                <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
-              </div>
-            </div></div>
-
-            <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                <div class="d">
-                  <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
-                  <div class="d-body">
-                    <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
-                    <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
-                  </div>
-                </div></div>
-
-                <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                    <div class="d">
-                      <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
-                      <div class="d-body">
-                        <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
-                        <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
-                      </div>
-                    </div></div>
-
-                    <div class="col-3 col-sm-12 col-md-6 col-lg-4 col-xl-3">
-                        <div class="d">
-                          <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
-                          <div class="d-body">
-                            <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
-                            <a href="#" class="btn btn-primary">BUY</a> <span>100$</span> 
-                          </div>
-                        </div></div>
-    </div>
-</div>
-<!-- END LIST SẢN PHẨM -->
-
-
-<!-- FACEBOOK FEED BUTTON -->
-<div class="row mt-5">
-<div class="container">
-    <div class="d-grid gap-5">
-        <a type="button" class="btn btn-primary" href="#" style="height: 50px; margin: 20px 0 10px 0;">Facebook Feed</a>
-    </div>
-</div>
-</div>
-<!-- END FACEBOOK FEED BUTTON -->
-
-<!-- FOOTER -->
-<div class="row">
+  
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="d">
+                <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
+                <div class="d-body">
+                  <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
+                  <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
+                </div>
+              </div></div>
+      </div>
+      <div class="row md-4">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <div class="d">
+                <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
+                <div class="d-body">
+                  <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
+                  <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
+                </div>
+              </div></div>
+  
+              <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                  <div class="d">
+                    <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
+                    <div class="d-body">
+                      <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
+                      <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
+                    </div>
+                  </div></div>
+  
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                      <div class="d">
+                        <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
+                        <div class="d-body">
+                          <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
+                          <a href="#" class="btn btn-primary">BUY</a> <span>100$</span>
+                        </div>
+                      </div></div>
+  
+                      <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+                          <div class="d">
+                            <img src="img/khung-ganh-ta-k10-3.webp" width="250px" class="d-img-top" alt="Error">
+                            <div class="d-body">
+                              <h5 class="d-title">Khung Gánh Tạ Đa Năng</h5>
+                              <a href="#" class="btn btn-primary">BUY</a> <span>100$</span> 
+                            </div>
+                          </div></div>
+      </div>
+  </div>
+  <!-- END LIST SẢN PHẨM -->
+  
+  
+  <!-- FACEBOOK FEED BUTTON -->
+  <div class="container-fluid">
+    <div class="row mt-5">
+      <div class="container">
+          <div class="button d-grid gap-5">
+              <a href="#" style="height: 50px;margin: 20px 0 10px 0;border-radius: 25px;border: 1px solid #000;padding: 0 25px;line-height: 50px; text-decoration: none; color: #000;">
+              <img src="img/Facebook_Logo_(2019).png" width="25" alt="">  Facebook Feed
+              </a>
+          </div>
+      </div>
+      </div>
+  </div>
+  <!-- END FACEBOOK FEED BUTTON -->
+  
+  <!-- FOOTER -->
+  <div class="row">
     <div class="container-fluid container3 ">
         <footer class="py-3 my-4 border-top">
           <div class="row">
@@ -151,7 +165,10 @@
       </div>
         </footer>
       </div>
-</div>
-<!--END FOOTER -->
+  </div>
+  <!--END FOOTER -->
+  
+  
+  </body>
 </body>
 </html>
